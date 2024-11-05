@@ -15,17 +15,17 @@ This step-by-step walkthrough will help streamline your Kubernetes deployment pr
 * A [Postgres](https://hub.docker.com/_/postgres/) database backed by a Docker volume
 * A [Node.js](/result) web app which shows the results of the voting in real time
 
-##Overview: 
+## Overview: 
 
 Spearheaded the deployment of scalable applications on AWS EC2, utilizing Kubernetes and Argo CD to enhance management efficiency and enable continuous integration. Managed deployments through the Kubernetes dashboard, optimizing resource allocation and facilitating smooth scaling operations.
 
-##Technological Stack:
+## Technological Stack:
 
 AWS EC2: Provided the infrastructure for hosting Kubernetes clusters.
 Kubernetes Dashboard: Offered an intuitive interface for overseeing containerized applications.
 Argo CD: Served as a continuous delivery tool to automate application deployment processes.
 
-##Achievements:
+## Achievements:
 
 Successfully integrated the Kubernetes dashboard for visual oversight of containerized applications hosted on AWS EC2.
 Leveraged Argo CD to create automated deployment pipelines, resulting in a 60% improvement in deployment efficiency.
