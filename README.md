@@ -1,41 +1,19 @@
 # K8s Kind Voting App
 
-A comprehensive guide for setting up a Kubernetes cluster using Kind on an AWS EC2 instance, installing and configuring Argo CD, and deploying applications using Argo CD.
+Here’s a detailed guide for creating a Kubernetes cluster using Kind on an AWS EC2 instance, followed by the setup and configuration of Argo CD, and finally, deploying applications through Argo CD.
 
-## Overview
+The guide covers the following:
 
-This guide covers the steps to:
-- Launch an AWS EC2 instance.
-- Install Docker and Kind.
-- Create a Kubernetes cluster using Kind.
-- Install and access kubectl.
-- Set up the Kubernetes Dashboard.
-- Install and configure Argo CD.
-- Connect and manage your Kubernetes cluster with Argo CD.
-
-
-## Architecture
-
-![Architecture diagram](k8s-kind-voting-app.png)
-
-## Observability
-
-![Grafana diagram](grafana.png)
-![Prometheus diagram](prometheus.png)
+Setting up a Kubernetes Cluster with Kind on an AWS EC2 instance.
+Installing and Configuring Argo CD within the cluster.
+Deploying Applications Using Argo CD to automate and manage application deployments.
+This step-by-step walkthrough will help streamline your Kubernetes deployment process on AWS, integrating Argo CD for enhanced GitOps workflows.
 
 * A front-end web app in [Python](/vote) which lets you vote between two options
 * A [Redis](https://hub.docker.com/_/redis/) which collects new votes
 * A [.NET](/worker/) worker which consumes votes and stores them in…
 * A [Postgres](https://hub.docker.com/_/postgres/) database backed by a Docker volume
 * A [Node.js](/result) web app which shows the results of the voting in real time
-
-
-
-## Resume Description
-
-### Project Title: 
-
-Automated Deployment of Scalable Applications on AWS EC2 with Kubernetes and Argo CD
 
 ### Description: 
 
@@ -53,8 +31,4 @@ Implemented Kubernetes dashboard for visual management of containerized applicat
 Utilized Argo CD for automated deployment pipelines, enhancing deployment efficiency by 60%.
 Achieved seamless scaling and high availability, supporting 99.9% uptime for critical applications.
 This project description emphasizes your role in leveraging AWS EC2, Kubernetes, and Argo CD to optimize application deployment and management processes effectively.
-
-
-### Aapke DevOps Wale Bhaiya
-### [TrainWithShubham](https://www.trainwithshubham.com/)
 
