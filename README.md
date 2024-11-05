@@ -22,7 +22,9 @@ Spearheaded the deployment of scalable applications on AWS EC2, utilizing Kubern
 ## Technological Stack:
 
 AWS EC2: Provided the infrastructure for hosting Kubernetes clusters.
+
 Kubernetes Dashboard: Offered an intuitive interface for overseeing containerized applications.
+
 Argo CD: Served as a continuous delivery tool to automate application deployment processes.
 
 ## Achievements:
